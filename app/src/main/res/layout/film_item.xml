@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="125dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:src="@color/black"
+        android:layout_margin="10dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人生大事"
+            android:textSize="@string/film_title_size"></TextView>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2022 上映"
+            android:textSize="@string/film_text_size"
+            android:layout_margin="2dp"></TextView>
+
+        <TextView
+            android:id="@+id/director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="导演: 小明"
+            android:textSize="@string/film_text_size"
+            android:layout_margin="2dp"></TextView>
+
+        <TextView
+            android:id="@+id/actor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="演员: 小红, 小刚, 小强"
+            android:textSize="@string/film_text_size"
+            android:layout_margin="2dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/discuss_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="讨论热度: 1280.4万"
+            android:textSize="@string/film_text_size"
+            android:layout_margin="5dp"></TextView>
+
+        <TextView
+            android:id="@+id/theme_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题热度: 128.4万"
+            android:textSize="@string/film_text_size"
+            android:layout_margin="5dp"></TextView>
+
+        <TextView
+            android:id="@+id/search_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索热度: 80.4万"
+            android:textSize="@string/film_text_size"
+            android:layout_margin="5dp"></TextView>
+
+        <TextView
+            android:id="@+id/influence_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="影响力热度: 1280.4万"
+            android:textSize="@string/film_text_size"
+            android:layout_margin="5dp"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

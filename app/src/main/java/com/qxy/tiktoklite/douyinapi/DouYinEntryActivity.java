@@ -52,7 +52,7 @@ public class DouYinEntryActivity extends Activity implements IApiEventHandler {
 
                 Toast.makeText(this, "授权成功，获得权限：" + response.grantedPermissions,
                         Toast.LENGTH_LONG).show();
-                MainActivity.code = response.authCode;
+                //MainActivity.code = response.authCode;
 
             }
         }

@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">TikTokLite</string>
-    <string name="button_length">30dp</string>
-    <string name="avatar_length">100dp</string>
-    <string name="text_smallest_size">10dp</string>
-    <string name="text_small_size">15dp</string>
-    <string name="text_middle_size">20dp</string>
-    <string name="text_big_size">30dp</string>
 </resources>

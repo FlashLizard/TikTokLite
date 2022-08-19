@@ -5,8 +5,18 @@
 
     <FrameLayout
         android:id="@+id/rank_left_layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/rank_left_frag"
+            android:name="com.qxy.tiktoklite.RankLeftFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </fragment>
+
+
     </FrameLayout>
 
 </LinearLayout>

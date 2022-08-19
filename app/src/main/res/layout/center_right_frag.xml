@@ -15,10 +15,10 @@
         android:layout_gravity="top">
 
         <Button
-            android:background="@drawable/BackButton"
+            android:background="@drawable/back_button"
             android:id="@+id/back_button"
-            android:layout_width="@string/button_length"
-            android:layout_height="@string/button_length"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
             android:layout_gravity="top|left"
             android:layout_margin="10dp"></Button>
 
@@ -34,7 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|top"
-                android:textSize="@string/text_big_size"
+                android:textSize="@dimen/text_big_size"
                 android:text="作品示例">
             </TextView>
 
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|bottom"
-                android:textSize="@string/text_middle_size"
+                android:textSize="@dimen/text_middle_size"
                 android:text="2012-1-29"
                 android:layout_marginTop="5dp">
             </TextView>
@@ -69,7 +69,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="@string/text_small_size"
+                android:textSize="@dimen/text_small_size"
                 android:text="播放: 100万"></TextView>
 
             <TextView
@@ -78,7 +78,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="@string/text_small_size"
+                android:textSize="@dimen/text_small_size"
                 android:text="评论: 10万"></TextView>
 
             <TextView
@@ -87,7 +87,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="@string/text_small_size"
+                android:textSize="@dimen/text_small_size"
                 android:text="下载: 55万"></TextView>
 
 
@@ -104,7 +104,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="@string/text_small_size"
+                android:textSize="@dimen/text_small_size"
                 android:text="点赞: 100万"></TextView>
 
             <TextView
@@ -113,7 +113,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="@string/text_small_size"
+                android:textSize="@dimen/text_small_size"
                 android:text="分享: 1万"></TextView>
 
             <TextView
@@ -122,7 +122,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:textSize="@string/text_small_size"
+                android:textSize="@dimen/text_small_size"
                 android:text="转发: 105万"></TextView>
 
 

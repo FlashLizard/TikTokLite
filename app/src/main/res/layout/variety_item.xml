@@ -23,14 +23,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="乘风破浪第三季"
-            android:textSize="@string/text_middle_size"></TextView>
+            android:textSize="@dimen/text_middle_size"></TextView>
 
         <TextView
             android:id="@+id/english_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Luck to Many Family"
-            android:textSize="@string/text_smallest_size"
+            android:textSize="@dimen/text_smallest_size"
             android:layout_margin="2dp"></TextView>
 
     </LinearLayout>
@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="讨论热度: 1280.4万"
-            android:textSize="@string/text_smallest_size"
+            android:textSize="@dimen/text_smallest_size"
             android:layout_margin="5dp"></TextView>
 
         <TextView
@@ -55,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="主题热度: 128.4万"
-            android:textSize="@string/text_smallest_size"
+            android:textSize="@dimen/text_smallest_size"
             android:layout_margin="5dp"></TextView>
 
         <TextView
@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="搜索热度: 80.4万"
-            android:textSize="@string/text_smallest_size"
+            android:textSize="@dimen/text_smallest_size"
             android:layout_margin="5dp"></TextView>
 
         <TextView
@@ -71,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="影响力热度: 1280.4万"
-            android:textSize="@string/text_smallest_size"
+            android:textSize="@dimen/text_smallest_size"
             android:layout_margin="5dp"></TextView>
 
     </LinearLayout>

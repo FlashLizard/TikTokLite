@@ -11,18 +11,18 @@
         android:layout_weight="3">
 
         <Button
-            android:background="@drawable/BackButton"
+            android:background="@drawable/back_button"
             android:id="@+id/back_button"
-            android:layout_width="@string/button_length"
-            android:layout_height="@string/button_length"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
             android:layout_gravity="top|left"
             android:layout_margin="10dp"></Button>
 
         <Button
             android:background="@color/black"
-            android:id="@+id/button_center"
-            android:layout_width="@string/button_length"
-            android:layout_height="@string/button_length"
+            android:id="@+id/center_button"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
             android:layout_gravity="top|right"
             android:layout_margin="10dp"></Button>
 

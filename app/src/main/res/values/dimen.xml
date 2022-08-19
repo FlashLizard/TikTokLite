@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_length">30dp</dimen>
+    <dimen name="avatar_length">100dp</dimen>
+    <dimen name="text_smallest_size">10dp</dimen>
+    <dimen name="text_small_size">15dp</dimen>
+    <dimen name="text_middle_size">20dp</dimen>
+    <dimen name="text_big_size">30dp</dimen>
+</resources>

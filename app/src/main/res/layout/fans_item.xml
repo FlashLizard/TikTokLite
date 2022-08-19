@@ -22,7 +22,7 @@
             android:id="@+id/fans_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@string/text_middle_size"
+            android:textSize="@dimen/text_middle_size"
             android:text="一二三">
         </TextView>
 
@@ -30,7 +30,7 @@
             android:id="@+id/fans_male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@string/text_smallest_size"
+            android:textSize="@dimen/text_smallest_size"
             android:text="男"
             android:layout_marginTop="5dp">
         </TextView>
@@ -39,7 +39,7 @@
             android:id="@+id/fans_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@string/text_smallest_size"
+            android:textSize="@dimen/text_smallest_size"
             android:text="中国 湖南 长沙"
             android:layout_marginTop="5dp">
         </TextView>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </VideoView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+        <Button
+            android:background="@drawable/BackButton"
+            android:id="@+id/button_back"
+            android:layout_width="@string/button_length"
+            android:layout_height="@string/button_length"
+            android:layout_gravity="top|left"
+            android:layout_margin="10dp"></Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/video_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:textSize="@string/text_big_size"
+                android:text="作品示例">
+            </TextView>
+
+            <TextView
+                android:id="@+id/video_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:textSize="@string/text_middle_size"
+                android:text="2012-1-29"
+                android:layout_marginTop="5dp">
+            </TextView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_margin="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/play_num"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@string/text_small_size"
+                android:text="播放: 100万"></TextView>
+
+            <TextView
+                android:id="@+id/comment_num"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@string/text_small_size"
+                android:text="评论: 10万"></TextView>
+
+            <TextView
+                android:id="@+id/download_num"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@string/text_small_size"
+                android:text="下载: 55万"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/like_num"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@string/text_small_size"
+                android:text="点赞: 100万"></TextView>
+
+            <TextView
+                android:id="@+id/share_num"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@string/text_small_size"
+                android:text="分享: 1万"></TextView>
+
+            <TextView
+                android:id="@+id/transmit_num"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@string/text_small_size"
+                android:text="转发: 105万"></TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

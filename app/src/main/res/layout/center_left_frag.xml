@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/rank_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:background="@drawable/BackButton"
+                android:id="@+id/button_back"
+                android:layout_width="@string/button_length"
+                android:layout_height="@string/button_length"
+                android:layout_gravity="top|left"
+                android:layout_margin="10dp"></Button>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp">
+
+                <ImageView
+                    android:id="@+id/avatar"
+                    android:layout_width="@string/avatar_length"
+                    android:layout_height="@string/avatar_length"
+                    android:src="@color/black">
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="20dp">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@string/text_big_size"
+                        android:text="一二三四五">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@string/text_small_size"
+                        android:text="中国 北京"
+                        android:layout_marginTop="5dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@string/text_small_size"
+                        android:text="男"
+                        android:layout_marginTop="5dp">
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:textSize="@string/text_small_size"
+                android:text="   大家好，我是练习时长，两年半的，个人练习生，蔡徐坤，喜欢，唱，跳，rop，music！. 在今后的节目中，有我很多作词，作曲，编舞的原创作品，期待的话多多投票吧！">
+            </TextView>
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_film"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="个人作品">
+        </Button>
+
+        <Button
+            android:id="@+id/button_tvpaly"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="关注">
+        </Button>
+
+        <Button
+            android:id="@+id/button_variety"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="粉丝">
+        </Button>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/film_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:visibility="visible">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tvplay_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:visibility="gone">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/variety_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:visibility="gone">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

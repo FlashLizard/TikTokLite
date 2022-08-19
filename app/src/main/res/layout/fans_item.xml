@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/fans_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@color/black"
+        android:layout_gravity="center|left"
+        android:layout_margin="20dp">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center|left">
+
+        <TextView
+            android:id="@+id/fans_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@string/text_middle_size"
+            android:text="一二三">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fans_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@string/text_smallest_size"
+            android:text="男"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fans_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@string/text_smallest_size"
+            android:text="中国 湖南 长沙"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

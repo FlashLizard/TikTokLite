@@ -5,13 +5,15 @@
       <map>
         <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/activity_center.xml" value="0.178125" />
         <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/activity_rank.xml" value="0.20104166666666667" />
-        <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/center_left_frag.xml" value="0.4" />
+        <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/center_left_frag.xml" value="0.2" />
         <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/center_right_frag.xml" value="0.2" />
+        <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/fans_item.xml" value="0.4" />
         <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/film_item.xml" value="0.4" />
         <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/rank_bottom_frag.xml" value="0.16302083333333334" />
-        <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/rank_left_frag.xml" value="0.264" />
+        <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/rank_left_frag.xml" value="0.176" />
         <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/tvplay_item.xml" value="0.4" />
         <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/variety_item.xml" value="0.176" />
+        <entry key="..\:/code/AndroidStudioProjects/TikTokLite/app/src/main/res/layout/video_item.xml" value="0.4" />
         <entry key="..\:/code/AndroidStudioProjects/testtest/app/src/main/res/layout/activity_main.xml" value="0.2171875" />
       </map>
     </option>

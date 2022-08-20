@@ -44,25 +44,53 @@
         android:orientation="horizontal"
         android:layout_marginBottom="10dp">
 
-        <TextView
-            android:id="@+id/play_num"
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="@dimen/text_smallest_size"
-            android:text="播放: 11.2万">
-        </TextView>
+            android:gravity="center">
 
-        <TextView
-            android:id="@+id/comment_num"
+            <ImageView
+                android:src="@drawable/play"
+                android:layout_width="@dimen/text_small_size"
+                android:layout_height="@dimen/text_small_size">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/play_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/text_smallest_size"
+                android:text="11.2万"
+                android:layout_marginLeft="4dp">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="@dimen/text_smallest_size"
-            android:text="评论: 11.2万">
-        </TextView>
+            android:gravity="center">
+
+            <ImageView
+                android:src="@drawable/comment"
+                android:layout_width="@dimen/text_small_size"
+                android:layout_height="@dimen/text_small_size">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/comment_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/text_smallest_size"
+                android:text="1.2万"
+                android:layout_marginLeft="4dp">
+            </TextView>
+
+        </LinearLayout>
 
     </LinearLayout>
 

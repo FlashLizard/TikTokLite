@@ -26,23 +26,27 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 
-public class CenterLeftFragment extends Fragment {
+public class CenterLeftFragment extends BaseFragment {
 
-    private MainActivity activity;
+    private BaseActivity activity;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.rank_left_frag, container, false);
-        activity = (MainActivity) getActivity();
+        View view = inflater.inflate(R.layout.center_left_frag, container, false);
+        activity = (BaseActivity) getActivity();
+
+        return view;
+    }
+
+    @Override
+    public void initView() {
         activity.findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 activity.finish();
             }
         });
-
-        return view;
     }
 }

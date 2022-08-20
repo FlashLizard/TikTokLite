@@ -32,7 +32,9 @@ public class RankActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rank);
 
-        FrameLayout leftFragment = (FrameLayout) findViewById(R.id.rank_left_layout);
+        BaseFragment leftFragment = (BaseFragment) getSupportFragmentManager().findFragmentById(R.id.rank_left_frag);
+        leftFragment.initView();
+
 
     }
 

@@ -33,7 +33,7 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/button_film"
+            android:id="@+id/film_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -42,7 +42,7 @@
         </Button>
 
         <Button
-            android:id="@+id/button_tvpaly"
+            android:id="@+id/tvplay_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -51,7 +51,7 @@
         </Button>
 
         <Button
-            android:id="@+id/button_variety"
+            android:id="@+id/variety_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center"

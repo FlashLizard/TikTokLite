@@ -26,14 +26,13 @@
             android:text="一二三">
         </TextView>
 
-        <TextView
+        <ImageView
             android:id="@+id/fans_male"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/text_smallest_size"
-            android:text="男"
+            android:src="@drawable/male"
+            android:layout_width="@dimen/text_smallest_size"
+            android:layout_height="@dimen/text_smallest_size"
             android:layout_marginTop="5dp">
-        </TextView>
+        </ImageView>
 
         <TextView
             android:id="@+id/fans_address"

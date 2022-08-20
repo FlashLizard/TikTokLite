@@ -63,32 +63,74 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/play_num"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:textSize="@dimen/text_small_size"
-                android:text="播放: 100万"></TextView>
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/comment_num"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:textSize="@dimen/text_small_size"
-                android:text="评论: 10万"></TextView>
+                <ImageView
+                    android:src="@drawable/play"
+                    android:layout_width="@dimen/text_middle_size"
+                    android:layout_height="@dimen/text_middle_size">
+                </ImageView>
 
-            <TextView
-                android:id="@+id/download_num"
+                <TextView
+                    android:id="@+id/play_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/text_small_size"
+                    android:text="100万"
+                    android:layout_marginLeft="5dp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:textSize="@dimen/text_small_size"
-                android:text="下载: 55万"></TextView>
+                android:gravity="center">
+
+                <ImageView
+                    android:src="@drawable/comment"
+                    android:layout_width="@dimen/text_middle_size"
+                    android:layout_height="@dimen/text_middle_size">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/comment_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/text_small_size"
+                    android:text="10万"
+                    android:layout_marginLeft="5dp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:src="@drawable/download"
+                    android:layout_width="@dimen/text_middle_size"
+                    android:layout_height="@dimen/text_middle_size">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/download_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/text_small_size"
+                    android:text="55万"
+                    android:layout_marginLeft="5dp"></TextView>
+
+            </LinearLayout>
 
 
         </LinearLayout>
@@ -98,32 +140,74 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
 
-            <TextView
-                android:id="@+id/like_num"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:textSize="@dimen/text_small_size"
-                android:text="点赞: 100万"></TextView>
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/share_num"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:textSize="@dimen/text_small_size"
-                android:text="分享: 1万"></TextView>
+                <ImageView
+                    android:src="@drawable/like"
+                    android:layout_width="@dimen/text_middle_size"
+                    android:layout_height="@dimen/text_middle_size">
+                </ImageView>
 
-            <TextView
-                android:id="@+id/transmit_num"
+                <TextView
+                    android:id="@+id/like_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/text_small_size"
+                    android:text="10万"
+                    android:layout_marginLeft="5dp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:textSize="@dimen/text_small_size"
-                android:text="转发: 105万"></TextView>
+                android:gravity="center">
+
+                <ImageView
+                    android:src="@drawable/share"
+                    android:layout_width="@dimen/text_middle_size"
+                    android:layout_height="@dimen/text_middle_size">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/share_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/text_small_size"
+                    android:text="105万"
+                    android:layout_marginLeft="5dp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:src="@drawable/transmit"
+                    android:layout_width="@dimen/text_middle_size"
+                    android:layout_height="@dimen/text_middle_size">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/transmit_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/text_small_size"
+                    android:text="5万"
+                    android:layout_marginLeft="5dp"></TextView>
+
+            </LinearLayout>
 
 
         </LinearLayout>

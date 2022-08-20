@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -35,6 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|top"
                 android:textSize="@dimen/text_big_size"
+                android:textColor="@color/white"
                 android:text="作品示例">
             </TextView>
 
@@ -45,6 +47,7 @@
                 android:layout_gravity="center|bottom"
                 android:textSize="@dimen/text_middle_size"
                 android:text="2012-1-29"
+                android:textColor="@color/white"
                 android:layout_marginTop="5dp">
             </TextView>
 
@@ -69,7 +72,8 @@
                 android:id="@+id/play_img"
                 android:src="@drawable/play"
                 android:layout_width="@dimen/text_middle_size"
-                android:layout_height="@dimen/text_middle_size">
+                android:layout_height="@dimen/text_middle_size"
+                app:tint="@color/white">
             </ImageView>
 
             <TextView
@@ -79,9 +83,11 @@
                 android:layout_toRightOf="@id/play_img"
                 android:textSize="@dimen/text_small_size"
                 android:text="100万"
+                android:textColor="@color/white"
                 android:layout_marginLeft="5dp"></TextView>
 
             <ImageView
+                app:tint="@color/white"
                 android:id="@+id/like_img"
                 android:src="@drawable/like"
                 android:layout_alignLeft="@id/play_img"
@@ -98,6 +104,7 @@
                 android:layout_below="@id/play_num"
                 android:textSize="@dimen/text_small_size"
                 android:text="10万"
+                android:textColor="@color/white"
                 android:layout_marginLeft="5dp"></TextView>
 
         </RelativeLayout>
@@ -109,6 +116,7 @@
             android:gravity="center">
 
             <ImageView
+                app:tint="@color/white"
                 android:id="@+id/comment_img"
                 android:src="@drawable/comment"
                 android:layout_width="@dimen/text_middle_size"
@@ -122,26 +130,28 @@
                 android:layout_toRightOf="@id/comment_img"
                 android:textSize="@dimen/text_small_size"
                 android:text="50万"
+                android:textColor="@color/white"
                 android:layout_marginLeft="5dp"></TextView>
 
             <ImageView
+                app:tint="@color/white"
                 android:id="@+id/share_img"
-                android:src="@drawable/like"
-                android:layout_alignLeft="@id/comment_img"
-                android:layout_below="@id/comment_img"
                 android:layout_width="@dimen/text_middle_size"
-                android:layout_height="@dimen/text_middle_size">
-            </ImageView>
+                android:layout_height="@dimen/text_middle_size"
+                android:layout_below="@id/comment_img"
+                android:layout_alignLeft="@id/comment_img"
+                android:src="@drawable/share"></ImageView>
 
             <TextView
                 android:id="@+id/share_num"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/comment_img"
                 android:layout_below="@id/comment_num"
-                android:textSize="@dimen/text_small_size"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/comment_img"
                 android:text="105万"
-                android:layout_marginLeft="5dp"></TextView>
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_small_size"></TextView>
 
         </RelativeLayout>
 
@@ -152,6 +162,7 @@
             android:gravity="center">
 
             <ImageView
+                app:tint="@color/white"
                 android:id="@+id/download_img"
                 android:src="@drawable/download"
                 android:layout_width="@dimen/text_middle_size"
@@ -165,9 +176,11 @@
                 android:layout_toRightOf="@id/download_img"
                 android:textSize="@dimen/text_small_size"
                 android:text="1万"
+                android:textColor="@color/white"
                 android:layout_marginLeft="5dp"></TextView>
 
             <ImageView
+                app:tint="@color/white"
                 android:id="@+id/transmit_img"
                 android:src="@drawable/transmit"
                 android:layout_alignLeft="@id/download_img"
@@ -184,6 +197,7 @@
                 android:layout_below="@id/download_num"
                 android:textSize="@dimen/text_small_size"
                 android:text="10万"
+                android:textColor="@color/white"
                 android:layout_marginLeft="5dp"></TextView>
 
         </RelativeLayout>

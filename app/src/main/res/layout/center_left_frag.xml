@@ -89,7 +89,7 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/button_film"
+            android:id="@+id/video_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -98,7 +98,7 @@
         </Button>
 
         <Button
-            android:id="@+id/button_tvpaly"
+            android:id="@+id/following_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -107,7 +107,7 @@
         </Button>
 
         <Button
-            android:id="@+id/button_variety"
+            android:id="@+id/fans_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -118,7 +118,7 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/film_list"
+        android:id="@+id/video_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="7"
@@ -126,7 +126,7 @@
     </androidx.recyclerview.widget.RecyclerView>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/tvplay_list"
+        android:id="@+id/fans_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="7"
@@ -134,7 +134,7 @@
     </androidx.recyclerview.widget.RecyclerView>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/variety_list"
+        android:id="@+id/following_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="7"

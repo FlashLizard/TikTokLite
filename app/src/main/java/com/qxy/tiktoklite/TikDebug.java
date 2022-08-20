@@ -12,11 +12,11 @@ public class TikDebug {
     }
 
     public int nextInt(int val) {
-        return random.nextInt(val) + 2;
+        return random.nextInt(val) ;
     }
 
     public int nextInt() {
-        return random.nextInt(val) + 2;
+        return random.nextInt(val);
     }
 
     public String nextString(int val) {

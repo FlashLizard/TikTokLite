@@ -89,16 +89,16 @@ public class RankLeftFragment extends BaseFragment {
 
 
         initFilms();
-        LinearLayoutManager filmlayoutManager = new LinearLayoutManager(activity);
-        filmRecyclerView.setLayoutManager(filmlayoutManager);
+        LinearLayoutManager filmLayoutManager = new LinearLayoutManager(activity);
+        filmRecyclerView.setLayoutManager(filmLayoutManager);
         filmRecyclerView.setAdapter(new MovieAdapter(filmList, Movie.FILM));
         initTvPlays();
-        LinearLayoutManager tvlayoutManager = new LinearLayoutManager(activity);
-        tvplayRecyclerView.setLayoutManager(tvlayoutManager);
+        LinearLayoutManager tvLayoutManager = new LinearLayoutManager(activity);
+        tvplayRecyclerView.setLayoutManager(tvLayoutManager);
         tvplayRecyclerView.setAdapter(new MovieAdapter(tvplayList, Movie.TVPLAY));
         initVarieties();
-        LinearLayoutManager varietylayoutManager = new LinearLayoutManager(activity);
-        varietyRecyclerView.setLayoutManager(varietylayoutManager);
+        LinearLayoutManager varietyLayoutManager = new LinearLayoutManager(activity);
+        varietyRecyclerView.setLayoutManager(varietyLayoutManager);
         varietyRecyclerView.setAdapter(new MovieAdapter(varietyList, Movie.VARIETY));
 
     }
@@ -116,6 +116,7 @@ public class RankLeftFragment extends BaseFragment {
     public void initTvPlays() {
         TikDebug tikDebug = new TikDebug();
         tvplayList = new ArrayList<>();
+        tikDebug.setVal(10000);
         int amount = tikDebug.nextInt(21);
         for(int i=1; i<= amount; i++) {
             tvplayList.add(new Movie(tikDebug.nextString(),tikDebug.nextString(),tikDebug.nextString(),tikDebug.nextString()

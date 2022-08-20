@@ -79,7 +79,6 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
     public void onBindViewHolder(@NonNull MovieAdapter.ViewHolder holder, int position) {
         Movie movie = mMovieList.get(position);
         holder.title.setText(movie.title);
-        holder.title.setText(movie.title);
         holder.discussHot.setText("讨论热度: " + movie.discussHot);
         holder.themeHot.setText("主题热度: " + movie.themeHot);
         holder.searchHot.setText("搜索热度: " + movie.searchHot);
